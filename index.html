@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Akhil Bhardwaz | Business Intelligence &amp; Data Analyst</title>
+    <meta
+      name="description"
+      content="Akhil Bhardwaz is a London-based Business Intelligence and Data Analyst with an MSc in Business Analytics and 4+ years in UK retail and banking. Power BI, SQL, Python, Tableau."
+    />
+    <meta name="theme-color" content="#F8FAFC" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="#0B1120" media="(prefers-color-scheme: dark)" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Open Graph / LinkedIn. TODO: replace https://example.com with the real domain once deployed (og:image must be absolute). -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Akhil Bhardwaz | Business Intelligence &amp; Data Analyst" />
+    <meta
+      property="og:description"
+      content="London-based BI &amp; Data Analyst turning retail and banking data into dashboards and decisions. Power BI, SQL, Python."
+    />
+    <meta property="og:url" content="https://example.com/" />
+    <meta property="og:image" content="https://example.com/profile.jpg" />
+    <meta property="og:image:width" content="960" />
+    <meta property="og:image:height" content="1014" />
+    <meta property="og:image:alt" content="Portrait of Akhil Bhardwaz" />
+    <meta name="twitter:card" content="summary" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500&family=Fira+Sans:wght@400;500;600;700&display=swap"
+    />
+    <link rel="preload" as="image" href="/profile-480.jpg" fetchpriority="high" />
+
+    <!-- Set theme before paint to avoid a flash; saved choice wins, else system preference. -->
+    <script>
+      try {
+        var t = localStorage.getItem("theme");
+        if (t === "dark" || (!t && matchMedia("(prefers-color-scheme: dark)").matches))
+          document.documentElement.classList.add("dark");
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
